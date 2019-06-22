@@ -1,10 +1,27 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Header from './Header';
+const Url_Artist = "http://localhost:8900/artists"
 
-const Artist = () => {
-
-    return(
-        <h1>Artists Detail</h1>
-    )
+class Artist extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            artists: ''
+        }
+        }
+        componentDidMount(){
+            console.log(this.props.match.params.artistid)
+        } 
+    render(){
+        return(
+            <div>
+                <Header/>
+            </div>
+        )
+    }
 }
+
+
+   
 
 export default Artist;
