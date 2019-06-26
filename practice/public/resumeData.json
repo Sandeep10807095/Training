@@ -32,64 +32,101 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"I am person blended with both Technical and Management skills and always open to new technologies.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"EPITA - Paris",
+        "degree":"Master's in Information Systems Management",
+        "graduated":"02/2019"
+        
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Adikavi Nannaya University - India",
+        "degree":"Master's in Computer Science Technology",
+        "graduated":"03/2016"
+        
+      },
+      {
+        "school":"SRM University - India",
+        "degree":"Bachelor's in Information Technology",
+        "graduated":"07/2011"
+        
       }
-    ],
+    ], 
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Daher Software - Paris",
+        "title":"Frontend Developer & Scrum Master",
+        "years":"06/2019 - Present",
+        "description":"Technical Stack: HTML5/CSS3, Semantic UI, JavaScript, Typescript, React, Redux, Mocha, chai, DynamoDB, GraphQl, AWS, GitHub, Kanban and JIRA."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
+        "company":"Orange - Paris",
+        "title":"FUll Stack Developer - Internship",
+        "years":"09/2018 - 02/2019",
+        "description":"Technical Stack: HTML5/CSS3, SASS, JavaScript, Typescript, React, Redux, Node, Express Tailwind, Babel, Mocha, chai, Mongoosejs, MongoDB, AWS, GitHub, Kanban and JIRA."
+        
+      },
+      {
+        "company":"WI Group Private Limited - India",
+        "title":"FUll Stack Developer & Scrum Master",
+        "years":"04/2016 - 08/2017",
+        "description":"Technical Stack: HTML5/CSS3, JavaScript, React, Redux, Saga, D3 JS, Express, Node, Bootstrap, Mocha, Chai, Mongoosejs, MongoDb, Firebase, AWS, GitHub, Scrum and JIRA."
+      },
+      {
+        "company":"PREZI - India",
+        "title":"Product Ambassador - Internship",
+        "years":"06/2015 - 11/2015",
+        "description":"Technical Stack : Prezi, Adobe Tools and Microsoft Tools."
+      
+    },
+    {
+      "company":"Mindcraft Private Limited - India",
+        "title":"FUll Stack Developer & Scrum Master",
+        "years":"08/2013 - 12/2013",
+        "description":"Technical Stack: HTML/CSS, JavaScript, Java, jQuery, Ajax, JSP, Servlets, Spring MVC, MySQL, Junit, Maven, Ms Project, Trello, JIRA and Agile Methodologies."
+
+    },
+    {
+      "company":"Tata Consultancy Services - India",
+        "title":"FUll Stack Developer",
+        "years":"10/2011 - 06/2013",
+        "description":"Technical Stack: HTML/CSS, JavaScript, Java, jQuery, Ajax, Servlets, JSP, Hibernate, Spring, Web Services (SOAP/REST), Junit, Maven, AIX, Apache Tomcat, SVN, UML and MySQL."
+    },
+    {
+      "company":"SRM Technologies - India",
+        "title":"QML/C ++/JavaScript Developer - Internship",
+        "years":"10/2010 - 03/2011",
+        "description":"Technical stack: QT, Qt Quick, QML, C++, JavaScript, Qt Test/Qt Quick Test, MeeGo Netbook SDK 1.0 and Ubuntu 10.04."
+    },
+    {
+      "company":"BSNL - India",
+      "title":"Frontend Web Developer - Internship",
+      "years":"10/2009 - 03/2010",
+      "description":"Technical Stack: HTML/CSS, jQuery, JavaScript, XML, Java, JSP, Servlets Adobe Products, and MySQL 5.5."
+    }
+      
+  
+      
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Full Stack Development",
+        "level":"75%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Project Management",
+        "level":"75%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Agile Methodologies",
+        "level":"80%"
       },
       {
-        "name":"CSS",
+        "name":"Communication",
         "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
       }
+      
     ]
   },
   "portfolio":{
@@ -129,12 +166,12 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":" He proved high technical and management skills. His sense of humour helped him to integrate perfectly in our team and made things seem easy.",
+        "user":"Marius Moïse - CIA CISA CRISC CAMS ISO27001 Lead Auditor"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. He has been very professional and very clear in all communications, which I appreciate.",
+        "user":"Srijani Basak - Tech Lead "
       }
     ]
   }
