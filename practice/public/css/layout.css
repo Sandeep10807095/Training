@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: white; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -794,10 +794,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: whitesmoke;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color:black;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -808,7 +808,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: black;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -820,12 +820,12 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: red;
 }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: black;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -840,7 +840,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: black;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -862,13 +862,13 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: red;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
+	color:Red;
+   background: black;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -877,8 +877,8 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+	color:white;
+	background:red;
 }
 #contact span.required {
 	color: #11ABB0;
@@ -886,7 +886,7 @@ call-to-action .button {
 }
 #message-warning, #message-success {
    display: none;
-	background: #0F0F0F;
+	background: red;
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 65%;
@@ -933,14 +933,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: red;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: red; }
+footer a:hover, footer a:focus { color:black; }
 
 /* copyright */
 footer .copyright {
@@ -977,7 +977,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: red;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -995,7 +995,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: red;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1008,4 +1008,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: black; }
