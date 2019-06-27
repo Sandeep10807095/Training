@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import { Container, Header, List } from "semantic-ui-react";
+import ReactDOM from "react-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Menu from './menu';
+import Login from './login';
+import Example from './example';
+
+const App = ({ children }) => (
+  <Container style={{ margin: 20 }}>
+    <Header as="h3"></Header>
+    <List bulleted>
+      <List.Item
+        as="a"
+        content=""
+        href="https://react.semantic-ui.com/"
+        target="_blank"
+      />
+      <List.Item
+        as="a"
+        content=""
+        href="https://stackoverflow.com/questions/tagged/semantic-ui-react?sort=frequent"
+        target="_blank"
+      />
+      <Fragment>
+    <Menu />
+    <Container>
+      <Login />
+    </Container>
+  </Fragment>
+    </List>
+
+    {children}
+  </Container>
+);
+const styleLink = document.createElement("link");
+styleLink.rel = "stylesheet";
+styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css";
+document.head.appendChild(styleLink);
+
+ReactDOM.render(
+  <App>
+    <Example />
+  </App>,
+  document.getElementById("root")
+);
 
 export default App;
