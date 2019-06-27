@@ -9,7 +9,7 @@ import Example from './example';
 const App = ({ children }) => (
   <Container style={{ margin: 20 }}>
     <Header as="h3"></Header>
-    <List bulleted>
+    <List>
       <List.Item
         as="a"
         content=""
