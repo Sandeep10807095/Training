@@ -12,7 +12,8 @@ export default class MenuExampleStackable extends Component {
     return (
       <Menu stackable>
         <Menu.Item>
-          <img src='https://react.semantic-ui.com/logo.png' />
+          <span><img src='/logo.png' />
+            </span>
         </Menu.Item>
 
         <Menu.Item
